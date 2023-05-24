@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1080px;
+  margin: 20px auto;
+}
+.name-logo {
+  display: flex;
+  position: relative;
+}
+.site-logo {
+  position: absolute;
+  left: -160px;
+  top: -90px;
+}
+.name-site:link,
+.name-site:visited {
+  position: absolute;
+  left: -130px;
+  top: -85px;
+  text-decoration: none;
+  font-family: Arial;
+  color: #f8f9fa;
+}
+.login-sign {
+  display: grid;
+  grid-template-columns: 360px 708px;
+  align-items: center;
+  background-color: #1c7ed6;
+  border-radius: 12px;
+}
+.welcome {
+  color: #f8f9fa;
+  font-family: "Trebuchet MS";
+  margin-top: 100px;
+  font-size: 36px;
+}
+.login-tip {
+  margin: 40px 0;
+  text-align: center;
+  color: #f1f3f5;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  line-height: 20px;
+}
+.left-side,
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+}
+.right-side {
+  background-color: #f6f9ff;
+}
+.welcome-right,
+.login-tip-right {
+  color: #1c7ed6;
+  margin-bottom: 20px;
+}
+.social-icon {
+  border: 2px solid black;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 4px;
+}
+.social-icon:last-child {
+  margin-right: 0;
+}
+.social-icon:hover {
+  border: 2px solid #1c7ed6;
+  stroke: #1c7ed6;
+  fill: #1c7ed6;
+  transform: translateY(-3px);
+}
+.social-icon:active {
+  background-color: #1c7ed6;
+  stroke: black;
+  fill: white;
+}
+.login-tip-right {
+  margin-bottom: 20px;
+  color: #868e96;
+}
+.input-field {
+  width: 280px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: #e7f5ff;
+}
+.btn {
+  margin-bottom: 100px;
+  width: 150px;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Segoe UI";
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #1c7ed6;
+  color: #f1f3f5;
+  border: 2px solid #f1f3f5;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.8);
+}
+.signup {
+  border: 2px solid #1c7ed6;
+}
